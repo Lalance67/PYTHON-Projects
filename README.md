@@ -1,0 +1,1 @@
+This repository contains Python scripts for learning and practicing fundamental Python concepts
