@@ -13,9 +13,9 @@ print(f"num + 1 is {n + 1:.2f}")
 
 
 
-# (not working)
+
 #multiple inputs in one line
-# a, b = input("Enter two numbers: ").split
-# a = int(a)
-# b = int(b)
-# print("Sum: ", a + b")"
+a, b = input("Enter two numbers: ").split()
+a = int(a)
+b = int(b)
+print("Sum: ", a + b)
