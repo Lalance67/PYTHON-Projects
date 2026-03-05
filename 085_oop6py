@@ -1,0 +1,14 @@
+class todo():
+    def __init__(self, task, done):
+        self.task = task
+        self.done = done
+
+    def md(self):
+        self.done = 1
+    def display(self):
+        result = "done" if self.done else "incomplete"
+        print(f"{self.task}: {result}")
+t1 = todo("cook", False)
+t1.md()
+t1.display()
+        
