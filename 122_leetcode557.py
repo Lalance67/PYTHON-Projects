@@ -1,0 +1,15 @@
+class Solution(object):
+    def reverseWords(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        l = s.split()
+
+        for i in range(len(l)):
+            l[i] = l[i][::-1]
+        s = " ".join(l)
+        return s
+    
+sol = Solution()
+print(sol.reverseWords("Let's take LeetCode contest"))
